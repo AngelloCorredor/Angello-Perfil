@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('img/Fondo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, i, p, label {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+i {
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    border: #ffffff solid;
+    transition: transform 0.5s ease; 
+}
+img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+a {
+    color: #83a5c9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button,
+form input[type="submit"] {
+    background-color: #02757e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    margin-right: 10px; 
+}
+
+
+button:hover,
+form input[type="submit"]:hover {
+    background-color: #003336;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.separator {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
